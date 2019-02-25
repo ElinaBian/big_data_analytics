@@ -1,7 +1,16 @@
 # big_data_analytics
 
+# Big Data Tools
+
+We all know that if we want to build our environment on google cloud to deal with big data, we need to install Hadoop, Hive, Hbase, and Spark. Here, I posted a tutorial for beginners and my first try on using these tools in the path ./begin_with_bigdata_tools
 
 # FashionAI
+
+I carried out a project on fashionAI. The details about the problem we worked on could be found [here](https://www.alibabacloud.com/zh/campaign/fashionai). 
+
+Detecting detailed apparel attributes is a topic receiving increasing attentions, which also has wide applications. Recent year, the demands of online shopping for fashion items grow a lot, which raises problems such as the sellers provide information not consistent with the real stuff, different sellers have inconsistent understandings of apparel styles. An automatic fashion attributes detection system can help overcome these problems by providing precise and consistent taggings or descriptions of apparel from their pictures. This technique can be applied to various areas such as apparel image searching, navigating tagging, and mix-and-match recommendation, etc.
+
+[Here](https://youtu.be/0_sKvq5NxpY) is a short video about our project.
 
 
 Data Preparation
