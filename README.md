@@ -1,10 +1,10 @@
 # My Way on Big Data Analytics
 
-# Big Data Tools
+# 1. Big Data Tools
 
 We all know that if we want to build our environment on google cloud to deal with big data, we need to install Hadoop, Hive, Hbase, and Spark. Here, I posted a tutorial for beginners and my first try on using these tools in the path ./begin_with_bigdata_tools
 
-# FashionAI
+# 2. FashionAI
 
 I carried out a project on fashionAI. The details about the problem we worked on could be found [here](https://www.alibabacloud.com/zh/campaign/fashionai). 
 
@@ -13,11 +13,11 @@ Detecting detailed apparel attributes is a topic receiving increasing attentions
 [Here](https://youtu.be/0_sKvq5NxpY) is a short video about our project.
 
 
-Data Preparation
+2.1 Data Preparation
 ----------------
 Our data are from Alibaba Tianchi Competition. Anyone who registered for the competition could download the data [here](https://tianchi.aliyun.com/getStart/information.htm?spm=5176.100067.5678.2.77b655052XICWe&raceId=231670).
 
-Training Process
+2.2 Training Process
 ----------------
 After downloading the data, we preprocessed the data and trained 8 models seperately for 8 tasks (4 tasks related to length: coat_length, skirt_lenth, sleeve_length, pant_length; 4 tasks related to design: neckline_design, collar_design, neck_design, lapel_design).
 
@@ -39,19 +39,19 @@ resnet50_imgaug_neck_design.ipynb
 
 resnet50_imgaug_skirt_length.ipynb
 
-Prediction Results
+2.3 Prediction Results
 ----------------
 
 We saved our method of combining 8 models and giving out final resualts of prediction in prediction.py
 
 And we gave out prediction results for several images in Combined_Prediction.ipynb
 
-Model Saving
+2.4 Model Saving
 ----------------
 
 We saved our 8 trained models [here](https://drive.google.com/open?id=1ym7w3cqBFTlIRnS_37CdWtgPLgVP3ykG) and you could get access to them with lionmail account.
 
-More Detailed about Our Project
+2.5 More Detailed about Our Project
 ----------------
 
 We have our report [here](https://drive.google.com/open?id=1jbXtrMNsQfmIPntXiXSqGXcDegh85W6lDKHE-RjWZYU), and you could get access to it with lionmail account. We give more detailed description of data, training models and results in it.
