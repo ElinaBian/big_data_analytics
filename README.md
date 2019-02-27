@@ -6,9 +6,13 @@ We all know that if we want to build our environment on google cloud to deal wit
 
 # 2. MLlib
 
-We all know that MLlib fits into Spark's APIs and interoperates with NumPy in Python (as of Spark 0.9) and R libraries (as of Spark 1.5). It's a significantly important machine learning tools dealing with large datasets. Here, I provide some basic knowledge and examples using MLlib to do recommendations, regressions, and classifications.
+We all know that MLlib fits into Spark's APIs and interoperates with NumPy in Python (as of Spark 0.9) and R libraries (as of Spark 1.5). It's a significantly important machine learning tools dealing with large datasets. Here, I provide some basic knowledge and examples using MLlib to do recommendations, regressions, classifications, and clustering.
 
-# 3. FashionAI
+# 3. Advanced Big Data Analysis
+
+Here, I use Spark Streaming and Twitter API to implement your Sentiment Analysis system. And I also carried out basic graph analysis on real wiki data.
+
+# 4. FashionAI
 
 I carried out a project on fashionAI. The details about the problem we worked on could be found [here](https://www.alibabacloud.com/zh/campaign/fashionai). 
 
@@ -17,11 +21,11 @@ Detecting detailed apparel attributes is a topic receiving increasing attentions
 [Here](https://youtu.be/0_sKvq5NxpY) is a short video about our project.
 
 
-3.1 Data Preparation
+4.1 Data Preparation
 ----------------
 Our data are from Alibaba Tianchi Competition. Anyone who registered for the competition could download the data [here](https://tianchi.aliyun.com/getStart/information.htm?spm=5176.100067.5678.2.77b655052XICWe&raceId=231670).
 
-3.2 Training Process
+4.2 Training Process
 ----------------
 After downloading the data, we preprocessed the data and trained 8 models seperately for 8 tasks (4 tasks related to length: coat_length, skirt_lenth, sleeve_length, pant_length; 4 tasks related to design: neckline_design, collar_design, neck_design, lapel_design).
 
@@ -43,19 +47,19 @@ resnet50_imgaug_neck_design.ipynb
 
 resnet50_imgaug_skirt_length.ipynb
 
-3.3 Prediction Results
+4.3 Prediction Results
 ----------------
 
 We saved our method of combining 8 models and giving out final resualts of prediction in prediction.py
 
 And we gave out prediction results for several images in Combined_Prediction.ipynb
 
-3.4 Model Saving
+4.4 Model Saving
 ----------------
 
 We saved our 8 trained models [here](https://drive.google.com/open?id=1ym7w3cqBFTlIRnS_37CdWtgPLgVP3ykG) and you could get access to them with lionmail account.
 
-3.5 More Detailed about Our Project
+4.5 More Detailed about Our Project
 ----------------
 
 We have our report [here](https://drive.google.com/open?id=1jbXtrMNsQfmIPntXiXSqGXcDegh85W6lDKHE-RjWZYU), and you could get access to it with lionmail account. We give more detailed description of data, training models and results in it.
