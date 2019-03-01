@@ -12,9 +12,15 @@ We all know that MLlib fits into Spark's APIs and interoperates with NumPy in Py
 
 Here, I use Spark Streaming and Twitter API to implement your Sentiment Analysis system. And I also carried out basic graph analysis on real wiki data.
 
+Then, the topic comes into an important area of big data, that is visualization. Here, I give out simple examples to use d3 to visualize clustering results, which would give out intuitional interpretation to clustering results. 
+
+Also, I use d3 to make bar plot to show the real-time stream of Tweets, which would help us see real-time change of big data.
+
+Finally, I visualize the graph analysis using a simple example with real wiki data.
+
 # 4. FashionAI
 
-I carried out a project on fashionAI. The details about the problem we worked on could be found [here](https://www.alibabacloud.com/zh/campaign/fashionai). 
+I carried out a project on fashionAI with two of my friends, Wenshan Wang and Xiuqi Shao. The details about the problem we worked on could be found [here](https://www.alibabacloud.com/zh/campaign/fashionai). 
 
 Detecting detailed apparel attributes is a topic receiving increasing attentions, which also has wide applications. Recent year, the demands of online shopping for fashion items grow a lot, which raises problems such as the sellers provide information not consistent with the real stuff, different sellers have inconsistent understandings of apparel styles. An automatic fashion attributes detection system can help overcome these problems by providing precise and consistent taggings or descriptions of apparel from their pictures. This technique can be applied to various areas such as apparel image searching, navigating tagging, and mix-and-match recommendation, etc.
 
