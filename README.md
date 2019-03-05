@@ -68,4 +68,4 @@ We saved our 8 trained models [here](https://drive.google.com/open?id=1ym7w3cqBF
 4.5 More Detailed about Our Project
 ----------------
 
-We have our report [here](https://drive.google.com/open?id=1jbXtrMNsQfmIPntXiXSqGXcDegh85W6lDKHE-RjWZYU), and you could get access to it with lionmail account. We give more detailed description of data, training models and results in it.
+We have our report uploaded as ProjectReport.pdf and we give more detailed description of data, training models and results in it.
